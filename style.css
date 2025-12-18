@@ -52,9 +52,7 @@ ul {
     line-height: 1.8;
 }
 
-h1, h2 {
-    color: #1e3a8a;
-}
+
 
 .galeri {
     display: flex;
@@ -97,4 +95,10 @@ h1, h2 {
     .galeri {
         justify-content: center;
     }
+}
+
+
+nav h2 {
+    color: gold !important;
+    font-size: 30px !important;
 }
