@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eko Jasa | Rental Mobil</title>
+</head>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navMenu = document.getElementById("navMenu");
+
+hamburger.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+});
+</script>
+
+
+
+<body>
+
+    <!-- NAVIGASI -->
+    <nav class="navbar">
+
+    <div class="logo">
+        <img src="IMAGE/Logo NAVBAR.png" alt="" class="s">
+
+        <div class="logo-text-wrap">
+        <span class="logo-text">Eko RentCar</span>
+        <span class="logo-subtext">Mobil aman, Liburan tenang!</span>
+        </div>
+    </div>
+
+    <!-- tombol hamburger -->
+    <div class="hamburger" id="hamburger">
+        ☰
+    </div>
+
+    <!-- menu -->
+    <div class="nav-menu" id="navMenu">
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#layanan">Layanan</a>
+        <a href="#kontak">Kontak</a>
+    </div>
+
+</nav>
+
+    <!-- BERANDA -->
+    <section id="beranda" class="fade-left">
+        <h1>Rental Mobil Kalimantan</h1>
+        <p>Selamat datang di Website Rental mobil Kalimantan,</p>
+        <p>Pilihan yang tepat untuk anda yang ingin menyewa mobil dengan aman dan tenang.</p>
+    </section>
+
+    <!-- TENTANG KAMI -->
+    <section id="tentang" class="tentang fade-left">
+    <div class="tentang-wrapper">
+
+        <!-- GAMBAR -->
+        <div class="tentang-image">
+            <img src="IMAGE/istockphoto-1192528069-612x612.png" alt="Tentang Kami">
+        </div>
+
+        <!-- TEKS -->
+        <div class="tentang-text">
+            <h2>Tentang Kami</h2>
+            <p>
+                Eko Jasa adalah usaha rental mobil yang melayani kebutuhan transportasi perorangan,
+                baik untuk perjalanan harian, liburan, maupun keperluan lainnya.
+            </p>
+            <p>
+                Kami berkomitmen memberikan layanan terbaik dengan armada yang aman,
+                nyaman, dan terawat.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+    <!-- LAYANAN -->
+    <section id="layanan">
+    <h2 class="layanan-title">Layanan Kami</h2>
+
+    <div class="layanan-wrapper">
+
+        <div class="layanan-card">
+            <img src="IMAGE/Icon Layanan.jpg" alt="harian">
+            <h3>Rental Harian</h3>
+            <p>
+                Sewa armada secara Harian.
+            </p>
+        </div>
+
+        <div class="layanan-card">
+            <img src="IMAGE/Icon Layanan.jpg" alt="Mingguan">
+            <h3>Rental Mingguan</h3>
+            <p>
+                Sewa armada secara Mingguan.
+            </p>
+        </div>
+
+        <div class="layanan-card">
+            <img src="IMAGE/Icon Layanan.jpg" alt="Bulanan">
+            <h3>Rental Bulanan</h3>
+            <p>
+                Sewa armada secara bulanan.
+            </p>
+        </div>
+
+        <div class="layanan-card">
+            <img src="IMAGE/Icon lepas kunci (Layanan kami).png" alt="Sopir / Lepas Kunci" class="icon-sopir">
+            <h3>Sopir / Lepas Kunci</h3>
+            <p>
+                Pilihan sewa dengan Sopir maupun Lepas kunci.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+    <section id="galeri">
+
+    <div class="galeri-header">
+        <h2 class="layanan-title">Galeri Mobil</h2>
+    </div>
+
+    <div class="galeri">
+
+        <!-- MOBIL 1 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Avanza</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">350K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">250K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 2 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Veloz</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 3 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Veloz Hybrid</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 4 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>XPander</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 5 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Xenia</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">350K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">250K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 6 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Agya</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">200K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 7 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Brio</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">350K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">250K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 8 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Rush</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 9 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Terios</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">300K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+        <!-- MOBIL 10 -->
+        <div class="car-card">
+            <div class="car-image">
+                <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+                <img src="IMAGE/BWM.png" alt="BMW">
+            </div>
+
+            <div class="car-body">
+                <h3>Innova Reborn</h3>
+                <div class="rating">★★★★★</div>
+
+                <div class="price">
+                    <div class="price-item">
+                        <span class="amount">500K</span>
+                        <span class="unit">/24 Jam</span>
+                    </div>
+                    <div class="price-item">
+                        <span class="amount">400K</span>
+                        <span class="unit">/12 Jam</span>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/6281115596767" class="btn-book">BOOKING NOW →</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- KONTAK -->
+    <section id="kontak" class="hubungi">
+    <div class="hubungi-content">
+        <h2>Hubungi Kami</h2>
+        <p>Siap melayani kebutuhan rental mobil Anda</p>
+        <p>dan</p>
+        <p>Dapatkan harga menarik!</p>
+
+        <a href="https://wa.me/6281115596767" 
+           target="_blank" 
+           class="btn-wa">
+           Hubungi via WhatsApp
+        </a>
+    </div>
+</section>
+
+    <footer>
+    <p class="copyright">Copyright © 2026 Eko RentCar.</p>
+    <p class="developed">Designed & Developed by Samtek Inc.</p>
+</footer>
+
+    <script>
+    const faders = document.querySelectorAll('.fade-left, .fade-right');
+
+    const appearOnScroll = new IntersectionObserver(
+        function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                } else {
+                    entry.target.classList.remove('show');
+                }
+            });
+        },
+        {
+            threshold: 0.1,
+            rootMargin: "0px 0px -100px 0px"
+        }
+    );
+
+    faders.forEach(fade => {
+        appearOnScroll.observe(fade);
+    });
+</script>
+
+<!-- FLOATING WHATSAPP -->
+<div class="wa-float">
+
+    <!-- BUTTON ICON -->
+    <div class="wa-btn" id="waToggle">
+        <img src="IMAGE/Logo Icon.png" alt="WhatsApp">
+    </div>
+
+    <!-- PANEL -->
+    <div class="wa-panel" id="waPanel">
+        <div class="wa-header">
+            <h4>Selamat datang di Eko RentCar!</h4>
+            <span>Online 24 Jam</span>
+        </div>
+
+        <div class="wa-body">
+            <a href="https://wa.me/6281115596767" target="_blank" class="wa-item">
+                <img src="IMAGE/Logo wa 2.png">
+                <div>
+                    <strong>WhatsApp</strong>
+                    <p>081115596767</p>
+                </div>
+            </a>
+
+            <a href="mailto:ekojasa@email.com" class="wa-item">
+                <img src="IMAGE/logo email.png">
+                <div>
+                    <strong>Email</strong>
+                    <p>ekojasa@email.com</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+const waBtn = document.getElementById("waToggle");
+const waPanel = document.getElementById("waPanel");
+
+waBtn.addEventListener("click", () => {
+    waPanel.classList.toggle("active");
+});
+</script>
+
+
+</body>
+</html>
