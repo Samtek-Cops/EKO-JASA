@@ -681,30 +681,6 @@
     transform: translateY(0); /* kembali ke posisi normal */
 }
 
-.layanan-wrapper::-webkit-scrollbar {
-    height: 8px;
-}
-
-.layanan-wrapper::-webkit-scrollbar-track {
-    background: #eee;
-    border-radius: 20px;
-}
-
-.layanan-wrapper::-webkit-scrollbar-thumb {
-    background: #913131;
-    border-radius: 20px;
-}
-
-.car-card{
-    display:flex;
-    flex-direction:column;
-    height:750px;
-}
-
-.price{
-    min-height:130px;
-}
-
 
 
     /* =====================
