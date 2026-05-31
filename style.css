@@ -695,6 +695,16 @@
     border-radius: 20px;
 }
 
+.car-card{
+    display:flex;
+    flex-direction:column;
+    height:750px;
+}
+
+.price{
+    min-height:130px;
+}
+
 
 
     /* =====================
