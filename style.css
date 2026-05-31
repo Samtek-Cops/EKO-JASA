@@ -363,14 +363,23 @@
 
 
     /* TENTANG KAMI */
-    .tentang-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 40px;
-        max-width: 1100px;
-        margin: auto;
-        padding: 60px 20px;
-    }
+    .tentang {
+        background-color: #fff;
+        padding: 80px 20px;
+}
+
+.tentang-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1100px;
+    margin: auto;
+
+    background: white;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
 
     .tentang-image img {
         width: 100%;
