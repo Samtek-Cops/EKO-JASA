@@ -430,20 +430,22 @@
     }
 
     .layanan-wrapper {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr); /* 4 card sejajar */
+        display: flex;
         gap: 30px;
-        max-width: 1200px;
-        margin: auto;
+        overflow-x: auto;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        padding: 10px 0 20px;
     }
 
     .layanan-card {
+        flex: 0 0 320px; /* lebar card tetap */
         background-color: #f3f3f3;
         padding: 40px 25px;
         border-radius: 12px;
         text-align: center;
         transition: 0.3s ease;
-    }
+}
 
     .layanan-card h3 {
         font-family: 'Poppins', sans-serif;
@@ -677,6 +679,20 @@
 .fade-in.show {
     opacity: 1;
     transform: translateY(0); /* kembali ke posisi normal */
+}
+
+.layanan-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.layanan-wrapper::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 20px;
+}
+
+.layanan-wrapper::-webkit-scrollbar-thumb {
+    background: #913131;
+    border-radius: 20px;
 }
 
 
