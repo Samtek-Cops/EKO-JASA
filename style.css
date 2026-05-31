@@ -219,11 +219,17 @@
         background: linear-gradient(135deg, #b91c1c, #ef4444);
         padding: 20px;
         text-align: center;
+        height: 280px; /* tinggi tetap */
+        display: flex;
+        justify-content: center;
     }
 
     .car-image img {
-        width: 100%;
         max-width: 260px;
+        max-height: 180px;
+        width: auto;
+        height: auto;
+        object-fit: contain;
     }
 
     /* BADGE */
