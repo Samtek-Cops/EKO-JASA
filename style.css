@@ -70,8 +70,9 @@
     }
 
     .logo img.s {
-        width: 200px;
+        width: 70px;
         margin-right: -20px;
+        height: 70px;
     }
 
     .logo-text {
@@ -923,21 +924,4 @@
     height: 100%;
 
     object-fit: contain;
-}
-
-nav {
-    height: 90px;
-}
-
-.logo img.s {
-    height: 65px;
-    width: auto;
-}
-
-.logo-text {
-    font-size: 36px;
-}
-
-.logo-subtext {
-    font-size: 13px;
 }
