@@ -1074,9 +1074,11 @@
 
 .tentang-list li {
     margin-bottom: 8px;
+    color: #7b1e1e;
 }
 
 .tentang-list li::before {
     content: "- ";
+    color: #7b1e1e;
     font-weight: 600;
 }
