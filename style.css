@@ -43,7 +43,7 @@
     .logo {
         display: flex;
         align-items: center;
-        gap: 10px;
+        gap: 20px;
         font-size: 40px;
     }
 
@@ -62,7 +62,7 @@
     }
 
     .logo-subtext {
-        font-size: 20px;
+        font-size: 18px;
         color: white;
         font-weight: 500;
         margin-top: 2px;
