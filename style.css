@@ -924,3 +924,20 @@
 
     object-fit: contain;
 }
+
+nav {
+    height: 90px;
+}
+
+.logo img.s {
+    height: 65px;
+    width: auto;
+}
+
+.logo-text {
+    font-size: 36px;
+}
+
+.logo-subtext {
+    font-size: 13px;
+}
