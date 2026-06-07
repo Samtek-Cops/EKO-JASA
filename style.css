@@ -891,6 +891,10 @@
         margin-right: 15px;
     }
 
+    .car-slider {
+        height: 180px;
+    }
+
 }
 
 .car-card {
