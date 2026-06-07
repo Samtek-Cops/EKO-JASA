@@ -768,25 +768,15 @@
     }
 
     .menu-overlay {
-    position: fixed;
-
-    top: 0;
-    left: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background: rgba(0,0,0,0.45);
-
-    backdrop-filter: blur(3px);
-
-    opacity: 0;
-
-    visibility: hidden;
-
-    transition: 0.3s ease;
-
-    z-index: 9998;
+        position: fixed;
+        inset: 0;
+        background: rgba(0,0,0,0.35);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s ease;
+        z-index: 9998;
 }
 
 .menu-overlay.active {
@@ -830,7 +820,7 @@
     /* LOGO & TEXT */
     .logo img.s {
         width: 120px;
-        margin-left: 50px;
+        margin-left: 0px;
     }
 
     .logo-text {
