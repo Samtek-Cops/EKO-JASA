@@ -925,4 +925,46 @@
     height: 100%;
 
     object-fit: contain;
+
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.car-slider img.active {
+    opacity: 1;
+}
+
+/* Tombol kiri kanan */
+.slider-btn {
+    position: absolute;
+    top: 45%;
+
+    transform: translateY(-50%);
+
+    width: 38px;
+    height: 38px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(255,255,255,0.9);
+
+    cursor: pointer;
+
+    font-size: 20px;
+    font-weight: bold;
+
+    z-index: 10;
+}
+
+.slider-btn:hover {
+    background: white;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }
