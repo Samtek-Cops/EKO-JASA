@@ -58,15 +58,16 @@
         color: gold;
         font-weight: bold;
         line-height: 1.1;
-        font-family: franklin gothic medium;
+        font-family: 'Montserrat', sans-serif;
     }
 
     .logo-subtext {
-        font-size: 18px;
-        color: goldenrod;
+        font-size: 16px;
+        color: whitesmoke;
         font-weight: 500;
         margin-top: 2px;
-        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        font-family:'Montserrat', sans-serif;
+        letter-spacing: 2px;
     }
 
     .logo img.s {
