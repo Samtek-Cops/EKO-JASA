@@ -32,6 +32,8 @@
         <span></span>
     </div>
 
+    <div class="menu-overlay"></div>
+
     <!-- menu -->
     <div class="nav-menu" id="navMenu">
         <a href="#beranda">Beranda</a>
@@ -906,10 +908,15 @@ waBtn.addEventListener("click", () => {
 <script>
 const hamburger = document.getElementById("hamburger");
 const navMenu = document.getElementById("navMenu");
+const overlay = document.querySelector(".menu-overlay");
 
 hamburger.addEventListener("click", () => {
+
     navMenu.classList.toggle("active");
-    hamburger.classList.toggle("active"); // toggle animasi X
+
+    hamburger.classList.toggle("active");
+
+    overlay.classList.toggle("active");
 });
 </script>
 
