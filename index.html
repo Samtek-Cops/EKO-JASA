@@ -161,24 +161,27 @@
 
         <!-- MOBIL 2 -->
         <div class="car-card">
-            <div class="car-image">
+           <div class="car-image">
+
+    <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+
+    <div class="car-slider zenix-slider">
+
+        <img src="IMAGE/ZENIXQ2.png" class="active" alt="ZENIX">
+        <img src="IMAGE/zenix1.jpeg" alt="ZENIX 1">
+        <img src="IMAGE/zenix2.jpeg" alt="ZENIX 2">
+        <img src="IMAGE/zenix3.jpeg" alt="ZENIX 3">
+        <img src="IMAGE/zenix4.jpeg" alt="ZENIX 4">
+        <img src="IMAGE/zenix5.jpeg" alt="ZENIX 5">
 
         <button class="slider-btn prev">&#10094;</button>
-
-        <div class="car-slider">
-            <img src="IMAGE/ZENIXQ2.png" class="active" alt="ZENIX">
-            <img src="IMAGE/zenix1.jpeg" alt="ZENIX 1">
-            <img src="IMAGE/zenix2.jpeg" alt="ZENIX 2">
-            <img src="IMAGE/zenix3.jpeg" alt="ZENIX 3">
-            <img src="IMAGE/zenix4.jpeg" alt="ZENIX 4">
-            <img src="IMAGE/zenix5.jpeg" alt="ZENIX 5">
-        </div>
-
         <button class="slider-btn next">&#10095;</button>
 
-        <span class="badge">🔑 Lepas Kunci 24 Jam</span>
+        <div class="slider-dots"></div>
 
     </div>
+
+</div>
 
             <div class="car-body">
                 <h3>ZENIX Q</h3>
@@ -907,6 +910,49 @@ const navMenu = document.getElementById("navMenu");
 hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
     hamburger.classList.toggle("active"); // toggle animasi X
+});
+</script>
+
+
+<script>
+document.querySelectorAll('.car-image').forEach(card => {
+
+    const images = card.querySelectorAll('.car-slider img');
+
+    if(images.length === 0) return;
+
+    let current = 0;
+
+    const showImage = (index) => {
+        images.forEach(img => img.classList.remove('active'));
+        images[index].classList.add('active');
+    };
+
+    const prevBtn = card.querySelector('.prev');
+    const nextBtn = card.querySelector('.next');
+
+    if(prevBtn && nextBtn){
+
+        prevBtn.addEventListener('click', () => {
+            current--;
+            if(current < 0){
+                current = images.length - 1;
+            }
+            showImage(current);
+        });
+
+        nextBtn.addEventListener('click', () => {
+            current++;
+            if(current >= images.length){
+                current = 0;
+            }
+            showImage(current);
+        });
+
+    }
+
+    showImage(current);
+
 });
 </script>
 
